@@ -1,0 +1,129 @@
+body {
+    text-align: center;
+    font-family: "Happy Monkey", serif;
+    margin-top: 30px;
+    color: #ffffff;
+    background: linear-gradient(#a2d2ff,#EFB0C9);
+        /*it is also possible to add gradient with this command called
+        background: linear-gradient(lightskyblue, white); 
+        ass you can see the top of the webside background is blue and the more you go down the website, you will see that the color changes from blue to pink (gradient)*/
+        
+}
+
+h1, h3, h5 {
+     text-shadow: 0px 0px 1px black;
+    
+}
+
+
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+
+
+#selfie-pic {
+    border: 6px solid #EFB0C9;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 8px;
+    border-radius: 5px;
+    margin: 15px 0px 10px 0px;
+    
+}
+
+
+#bday-date {
+    margin: 0px;
+    background: #EFB0C9;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+
+
+
+
+.gift-img {
+    width: 700px;
+    left: 300px;
+    border: 6px solid white;
+    border-radius: 10px;
+    height: 600px;
+    background-image: url(images/gift-cover.avif);
+    background-size: cover;
+    
+    
+}
+
+
+.gift-title {
+    margin-bottom: 20px;
+}
+
+
+
+.gift-hint {
+    margin-top: 0px;
+}
+
+
+
+.Gift-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+
+
+
+#gift-img-happy:hover {
+    background-image: url(images/happy-dance.webp);
+    
+} 
+
+#gift-img-hot:hover {
+    background-image: url(images/hot.gif);
+    
+}
+
+#gift-img-oneword:hover {
+    background-image: url(images/oneword-gif.webp);
+    
+}
+
+#gift-img-badass:hover {
+    background-image: url(images/badass-gif.webp);
+    
+}
+
+#gift-img-cheers:hover {
+    background-image: url(images/cheers-gif.webp);
+    
+}
+
+#gift-img-cheers {
+    width: 700px;
+    height: 350px;
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
